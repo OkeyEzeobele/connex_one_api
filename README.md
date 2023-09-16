@@ -56,7 +56,7 @@ Here's an updated description of the API endpoints, including the new `/metrics`
 | Method | Endpoint | Description                             | Required Headers |
 |--------|----------|-----------------------------------------|------------------|
 | GET    | `/time`  | Get the current epoch time              | Authorization    |
-| GET    | `/metrics`| Serve Prometheus-format metrics        | None             |
+| GET    | `/metrics`| Serve Prometheus-format metrics        | Authorization    |
 
 ### Fetch Current Epoch Time
 
